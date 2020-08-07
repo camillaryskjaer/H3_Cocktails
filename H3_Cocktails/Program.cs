@@ -56,6 +56,9 @@ namespace H3_Cocktails
                 maiTai
             };
 
+            
+            //Bør DB ligge her? I såfald bryder du med 3-lags modellen!!!! Du har også GUI placeret i denne klasse - det er no-go
+            //Her kunne du godt have lavet en controller og ladet dit program.cs være GUI!
             using (var db = new BarContext())
             {
 
